@@ -4,17 +4,6 @@ menButton.addEventListener("click", toggleMenu);
 function toggleMenu() {
 	
 	this.nextElementSibling.style.transition="0.3s";
-/*
-    if (this.nextElementSibling.style.opacity=="0.985") {
-       this.nextElementSibling.style.opacity="0";
-	   this.nextElementSibling.style.display="none";
-      
-    } else {
-      this.nextElementSibling.style.opacity="0.985"
-	  this.nextElementSibling.style.display="visible";
-	}
-}
-*/
 
 
  if (this.nextElementSibling.style.display === "none") {
@@ -24,6 +13,26 @@ function toggleMenu() {
     }
 	
 }
+
+
+$("#button1").click(function(){
+
+		$("html, body").animate({ scrollTop: $('.description').offset().top }, 1700);		
+
+	});
+	
+
+$("#button2").click(function(){
+
+		$("html, body").animate({ scrollTop: $('.looking').offset().top }, 1700);		
+
+	});
+
+$("#button3").click(function(){
+
+		$("html, body").animate({ scrollTop: $('.contacts').offset().top }, 1700);		
+
+	});
 
 
 
@@ -55,7 +64,7 @@ var msie = ua.indexOf("MSIE ");
 
 if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) // If Internet Explorer, return version number
 
-	window.scrollBy(0, 2000);
+
 	
   
 else { 
