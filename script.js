@@ -28,6 +28,30 @@ function toggleMenu() {
 
 
 
+$("#button1").click(function(){
+
+		$("html, body").animate({ scrollTop: $('.description').offset().top }, 1700);		
+
+	});
+	
+
+$("#button2").click(function(){
+
+		$("html, body").animate({ scrollTop: $('.looking').offset().top }, 1700);		
+
+	});
+
+$("#button3").click(function(){
+
+		$("html, body").animate({ scrollTop: $('.contacts').offset().top }, 1700);		
+
+	});
+
+
+
+
+
+
 
 $(".b1").click(function(){
 
