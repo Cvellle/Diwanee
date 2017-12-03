@@ -7204,7 +7204,15 @@ pre {
  
 }
 
+body{
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
 
+* {
+    box-sizing: border-box;    
+}
+	
 
 
 
