@@ -8,11 +8,11 @@ function toggleMenu() {
 	this.nextElementSibling.style.transition="0.3s";
 
 
- if (this.nextElementSibling.style.display === "none") {
-        this.nextElementSibling.style.display = "block";
+ if (this.nextElementSibling.style.display === "block") {
+        this.nextElementSibling.style.display = "none";
     } else
 		{
-        this.nextElementSibling.style.display = "none";
+        this.nextElementSibling.style.display = "block";
     }
 	
 }	  
