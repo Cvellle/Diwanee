@@ -187,6 +187,7 @@ body{
 	width:100%;
 	height:70%;	
 	text-align:center;
+	background: white;
 }
 
 .looking>p:nth-child(1) {
@@ -641,6 +642,7 @@ body{
 	top:290%;
 	width:100%;
 	height:30%;
+	background: white;
 }
 
 .more>button {
@@ -3137,6 +3139,7 @@ body {
 	font-weight:500;
 	font-family:Arial, sans-serif;
 	outline:0px solid lightgray;
+	display:flex;
 }
 
 .skills1>div:nth-child(2) {
