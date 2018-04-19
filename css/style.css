@@ -511,6 +511,7 @@ body{
 	width:100%;
 	height:30%;
 	color:black;
+	background: white;
 }
 
 .designer>p {
@@ -1668,8 +1669,10 @@ a {
 	top:238%;
 	left:0%;
 	width:100%;
-	height:36%;  	
+	height:36%;
+	background: white;  	
 }
+
 .frontend>pre {
 	display:none;
 }
