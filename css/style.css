@@ -1,4 +1,3 @@
-<style>
   
 :root {
 	background:white;
@@ -297,13 +296,18 @@ body{
 	width:50px;
 	color:#c41230;
 	font-size:90%;
-	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	font-weight:500;
 	font-family:Arial, sans-serif;
 }
 
 .skills1>div:nth-child(2) {
 	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	top:50%;
 	left:110px;
 	height:40px;
@@ -318,14 +322,15 @@ body{
 
 .skills1>div:nth-child(3) {
 	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	top:50%;
 	left:220px;
 	height:40px;
 	width:100px;
-	/*border:1px solid lightgray;*/
 	color:#c41230;
 	font-size:1em;
-	text-align:center;
 	font-weight:500;
 	font-family:Arial, sans-serif;
 }
@@ -421,6 +426,9 @@ body{
 
 .skills2>div:nth-child(1) {
 	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	top:50%;
 	left:0px;
 	height:40px;
@@ -434,39 +442,45 @@ body{
 
 .skills2>div:nth-child(2) {
 	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	top:50%;
 	left:110px;
 	height:40px;
 	width:100px;
 	/*border:1px solid lightgray;*/
 	font-size:80%;
-	text-align:center;
 	font-weight:500;
 	font-family:Arial, sans-serif;
 }
 
 .skills2>div:nth-child(3) {
 	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	top:50%;
 	left:220px;
 	height:40px;
 	width:100px;
 	/*border:1px solid lightgray;*/
 	font-size:80%;
-	text-align:center;
 	font-weight:500;
 	font-family:Arial, sans-serif;
 }
 
 .skills2>div:nth-child(4) {
 	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content: center;s
 	top:50%;
 	left:330px;
 	height:40px;
 	width:100px;
 	/*border:1px solid lightgray;*/
 	font-size:80%;
-	text-align:center;
 	font-weight:500;
 	font-family:Arial, sans-serif;
 }
@@ -560,7 +574,9 @@ body{
 	width:100px;
 	/*border:1px solid lightgray;*/
 	font-size:80%;
-	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	font-weight:500;
 	font-family:Arial, sans-serif;
 }
@@ -573,7 +589,9 @@ body{
 	width:100px;
 	/*border:1px solid lightgray;*/
 	font-size:80%;
-	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	font-weight:500;
 	font-family:Arial, sans-serif;
 }
@@ -586,7 +604,9 @@ body{
 	width:100px;
 	/*border:1px solid lightgray;*/
 	font-size:80%;
-	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	font-weight:500;
 	font-family:Arial, sans-serif;
 }
@@ -599,7 +619,9 @@ body{
 	width:100px;
 	/*border:1px solid lightgray;*/
 	font-size:80%;
-	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	font-weight:500;
 	font-family:Arial, sans-serif;
 }
