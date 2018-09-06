@@ -4205,10 +4205,12 @@ pre {
 	margin-bottom:10rem;
 }
 .description {
-	display:flex;
+	display:block;
 }
 #preMain {
 	font-size:2.6rem !important;
+	margin-left:auto !important;;
+	margin-right:auto !important;;
 }
 
 #preMain1 {
