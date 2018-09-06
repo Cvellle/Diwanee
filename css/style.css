@@ -5767,11 +5767,14 @@ pre {
  }
 
  .skills1,.skills2,.skills3 {
-	 position:absolute;
+	position:absolute;
 	bottom:0.5rem;
-	font-size:0.1rem important!;
 }
 	
+.line {
+	-webkit-transform:translate(-50%,1rem) !important;
+}
+
 }
 
 
