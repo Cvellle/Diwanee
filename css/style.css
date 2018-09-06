@@ -4181,7 +4181,10 @@ pre {
 	display:none;
  }
 
-
+.skills1,.skills2,.skills3{
+	position:absolute;
+	bottom:3rem;
+}
 	
 }
 
@@ -5763,7 +5766,11 @@ pre {
 	display:none;
  }
 
-
+ .skills1,.skills2,.skills3 {
+	 position:absolute;
+	bottom:0.5rem;
+	font-size:0.1rem important!;
+}
 	
 }
 
