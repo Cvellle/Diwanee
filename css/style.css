@@ -4183,7 +4183,35 @@ pre {
 
 .skills1,.skills2,.skills3{
 	position:absolute;
-	bottom:3rem;
+	bottom:2rem;
+	font-size:80% !important;
+
+}
+
+.line {
+	-webkit-transform:translate(-50%, 1rem) !important;
+}
+
+.description>.line {
+	-webkit-transform:translate(-50%, 1rem) !important;
+}
+
+.pdiv1, .pdiv2, .pdiv3, #look {
+	font-size:120% !important;
+}
+
+.jobs>div>pre {
+	font-size:1.17rem !important;
+	margin-bottom:10rem;
+}
+
+#preMain {
+	font-size:230% !important;
+}
+
+#preMain1 {
+	font-size:120% !important;
+	-webkit-transform:translate(0.8rem,0) !important;
 }
 	
 }
