@@ -5772,7 +5772,7 @@ pre {
 }
 	
 .line {
-	-webkit-transform:translate(-50%,1rem) !important;
+	-webkit-transform:translate(-50%,0.6rem) !important;
 }
 
 }
