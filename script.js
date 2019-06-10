@@ -5,7 +5,7 @@ menButton.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
 	
-	this.nextElementSibling.style.transition="0.3s";
+	this.nextElementSibling.style.transition = "0.3s";
 
 
  if (this.nextElementSibling.style.display === "block") {
@@ -27,14 +27,14 @@ if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))
  
   {  
  
-bu1.addEventListener("click",function () {
+bu1.addEventListener("click", function () {
    window.scrollBy(0, 2850);
 });
-bu2.addEventListener("click",function () {
+bu2.addEventListener("click", function () {
    window.scrollBy(0, 1500);
 });   
     
-bu3.addEventListener("click",function () {
+bu3.addEventListener("click", function () {
    window.scrollBy(0, 10000);
 }); 
 
