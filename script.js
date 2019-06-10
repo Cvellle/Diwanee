@@ -27,23 +27,22 @@ if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))
  
   {  
  
-bu1.addEventListener("click", function () {
-   window.scrollBy(0, 2850);
-});
-bu2.addEventListener("click", function () {
-   window.scrollBy(0, 1500);
-});   
+    bu1.addEventListener("click", function () {
+      window.scrollBy(0, 2850);
+    });
+    bu2.addEventListener("click", function () {
+      window.scrollBy(0, 1500);
+    });   
     
-bu3.addEventListener("click", function () {
-   window.scrollBy(0, 10000);
-}); 
-
+    bu3.addEventListener("click", function () {
+      window.scrollBy(0, 10000);
+    }); 
 
   }
 
-else 
-    
 
+ else 
+    
 
 jQuery(document).ready(function($) {
 
